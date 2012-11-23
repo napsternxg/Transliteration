@@ -1,0 +1,30 @@
+#originalText{
+	width: 40%;
+	min-height: 200px;
+	float: left;
+	padding: 10px;
+}
+#outputText{
+	width: 40%;
+	min-height: 200px;
+	float: left;
+	padding: 10px;
+}
+
+#convert{
+	width: 20%;
+	height: 50px;
+	background-color: #B6CA25;
+	border-radius: 5px;
+	border: solid 2px black;
+	color: #ffffff;
+	font-size: 20px;
+	display: block;
+	clear: both;
+	margin: 10px;
+}
+
+#convert:hover{
+	background-color: #801B1B;
+	border: solid 5px black;
+}

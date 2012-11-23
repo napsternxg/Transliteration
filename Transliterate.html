@@ -1,0 +1,24 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Transliterate English Text to Hindi</title>
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="transliterate.js"></script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Transliterate English Text to Hindi</h1>
+    <p>Put your text written in Hindi using english letters into the text box. The click on the <strong>Convert Button</strong>. After that when the hindi text is created paste it into the <strong><a href="http://www.google.co.in/transliterate">Google Transliterate Editor</a></strong> to do proof reading of your text. Rectify all your errors there. Happy Transliteration =)</p>
+    <div id="container">
+      <textarea id="originalText"></textarea>
+      <div id="outputText">
+        <h2>Output Text</h2>
+        <div id="transliteration"></div>
+      </div>
+      <button id="convert" onclick="transliterateLine()">Convert</button>
+      </div>
+    <footer>Created By: Shubhanshu Mishra, uses Google Transliterate API</footer>
+  </body>
+</html>
